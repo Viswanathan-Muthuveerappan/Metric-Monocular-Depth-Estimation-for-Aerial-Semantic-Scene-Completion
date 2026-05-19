@@ -2,14 +2,17 @@
 
 > **Note:** This work was conducted as part of the aerial Semantic Scene Completion (SSC) benchmark **OccuFly (CVPR 2026 Oral)**. 
 > 
-> 🔗 **[OccuFly Website](https://markus-42.github.io/publications/2026/occufly/)** | 🔗 **[OccuFly GitHub](https://github.com/markus-42/occufly)** | 📄 **[Detailed Report PDF](./Monocular_Depth_Estimation.pdf)**
+> 🔗 **[OccuFly Website](https://markus-42.github.io/publications/2026/occufly/)** | 🔗 **[OccuFly GitHub](https://github.com/markus-42/occufly)** 
 
 ## 📌 Overview
 Robust aerial autonomy requires environmental representations that transcend 2D image observations, capturing the underlying 3D structure of the scene. This becomes critical in the presence of occlusions, where significant portions of the environment are hidden from the sensor's current viewpoint. 
 
 While LiDAR sensors provide high-fidelity geometric data, they are often impractical for lightweight aerial platforms due to constraints in payload, power consumption, and cost. Consequently, monocular depth estimation, the task of predicting pixel depths from a single RGB image, has emerged as a practical alternative. The resulting depth maps serve as crucial geometric priors for downstream 3D Semantic Scene Completion (SSC) tasks without the hardware overhead of active sensors.
 
-## 🛠️ Summary of Contributions
+## 🛠️ Summary of My Contributions
+
+📄 **[Read the Full Technical Report Here](./Monocular_Depth_Estimation.pdf)**
+
 Monocular depth estimation is an inherently ill-posed problem, and this ambiguity is further amplified in aerial scenarios due to extreme viewpoint variations, scale ambiguities, and complex scene structures. 
 
 To address this, my specific technical contributions include:
