@@ -11,7 +11,7 @@ While LiDAR sensors provide high-fidelity geometric data, they are often impract
 
 ## 🛠️ Summary of My Contributions
 
-📄 **[Read the Full Technical Report Here](./Monocular_Depth_Estimation.pdf)**
+📄 **[Read the Detailed Technical Report Here](./Monocular_Depth_Estimation.pdf)**
 
 Monocular depth estimation is an inherently ill-posed problem, and this ambiguity is further amplified in aerial scenarios due to extreme viewpoint variations, scale ambiguities, and complex scene structures. 
 
